@@ -1,0 +1,215 @@
+/*TABLET*/
+@media(max-width: 768px) {
+    .header_nav a {
+        display: none;
+    }
+
+    .divcontainerskills {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .divcontainerhobbies {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    html {
+        font: 400 70% 'Inter', 'sans-serif';
+    }
+
+    .container {
+        max-width: 50.8rem;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .header_apresentacao p {
+        font-size: 16px;
+    }
+
+    .secapresentacao img {
+        max-width: 146px;
+    }
+
+    .secapresentacao {
+        padding: 32px;
+    }
+
+    .sobre_mim {
+        padding: 32px;
+    }
+
+    .formacaocard {
+        padding: 16px;
+        width: 270px;
+        gap: 22px;
+    }
+
+    .divcontainerformacao img {
+        width: 84px;
+    }
+
+    .sobre h2 {
+        font-size:
+            27px;
+    }
+
+    .sobre p {
+        font-size: 14px;
+    }
+
+    .secskills h2 {
+        font-size:
+            27px;
+    }
+
+
+    .secskills {
+        margin-top: 40px;
+
+    }
+
+    .skillcard {
+        padding: 16px;
+        gap: 8px;
+    }
+
+    .sechobbies h2 {
+        margin-top: 40px;
+        font-size: 27px;
+    }
+
+    .hobbiecard {
+        padding: 16px;
+        gap: 8px;
+    }
+
+    .experienciaprof {
+        text-align: center;
+    }
+
+    .experienciaprof2 {
+        align-items: center;
+    }
+
+    .divcontainerexperiencia1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divcontainerexperiencia2 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .divcontainerexperiencia1 img {
+        width: 100%;
+    }
+
+    .divcontainerexperiencia2 img {
+        width: 100%;
+    }
+
+    .descricao1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .descricao2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divcontainerexperiencia1 a {
+        padding: 14px;
+        width: 76px;
+    }
+
+    .divcontainerexperiencia2 a {
+        padding: 14px;
+        width: 76px;
+    }
+
+    .descricao1 h2 {
+        font-size: 16px;
+    }
+
+    .descricao1 p {
+        font-size: 14px;
+    }
+
+    .descricao2 h2 {
+        font-size: 16px;
+    }
+
+    .descricao2 p {
+        font-size: 14px;
+    }
+
+    .links {
+        display: flex;
+    }
+}
+
+@media(max-width: 700px) {
+    .container {
+        max-width: 30rem;
+        margin: auto;
+    }
+
+    html {
+        font: 400 60% 'Inter', 'sans-serif';
+    }
+
+    .secapresentacao img {
+        max-width:98px;
+       
+    }
+    .apresentacao{
+        max-width: 320px;
+    }
+    .header_apresentacao{
+        max-width: 320px;
+    }
+
+    .secapresentacao{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 16px;
+    }
+
+    .divcontainerskills{
+        width: 350px;
+       
+    }
+
+    .skillcard{
+       padding: 16px;
+    }
+
+    .divcontainerhobbies{
+        width: 328px;
+        gap: 16;
+    }
+
+    
+    .divcontainerformacao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formacaocard{
+        width: 196px;
+        padding: 50px;
+    }
+
+  
+}

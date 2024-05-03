@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --pag-color: #f2eeee;
+    --sobre-color: #c9c3c6;
+    --hover-color: #817d7d;
+    --p-color: #575353;
+    --titulo-color: #000000;
+    --fonte-paragrafos: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: var(--pag-color);
+    overflow-x: hidden;
+}
+
+html {
+    font: 400 100% 'Inter', 'sans-serif';
+}
+
+h1 {
+    font-size: 52px;
+    color: var(--titulo-color);
+}
+
+h2{
+    color: var(--titulo-color);
+    font-size: 40px;
+    color: var(--titulo-color);
+}
+p{
+    color: var(--p-color);
+}
+
+.container {
+    max-width: 85.8rem;
+    margin: auto;
+}
+
+
+/*CABECALHO*/
+.header {
+    display: flex;
+    padding: .5rem 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.div_header{
+    box-shadow: 0 2px 4px rgba(0,0,0,.08), 
+    0 4px 12px rgba(0,0,0,.08);
+    position: fixed;
+    width: 100%;
+    background-color: var(--pag-color);
+    
+}
+
+.header_nav {
+    align-items: center;
+    display: flex;
+}
+
+.header_nav a {
+    display: flex;
+    text-decoration: none;
+    color: var(--titulo-color);
+    border-bottom: 5px solid transparent;
+    transition: border-bottom 0.4s ease;
+}
+
+.header_nav a:hover {
+    border-bottom: 3px solid var(--hover-color);
+}
+
+.header_nav li {
+    list-style-type: none;
+}
+
+.header_nav ul {
+    display: flex;
+    justify-content: flex-end;
+    display: flex;
+    gap: 5rem;
+    list-style-type: none;
+}
+
+
+
+
+/*//////////////APRESENTACAO///////////////*/
+.apresentacao {
+    padding: 40px;
+}
+
+.secapresentacao {
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.secapresentacao img{
+    max-width: 368px ;
+}
+
+.p-apresentacao {
+    font-size:22px;
+    color: var(--titulo-color);
+    font-family: var(--fonte-paragrafos);
+}
+
+.redes_icon{
+    display: flex;
+    gap: 20px;
+}
+
+.redes_icon a ion-icon{
+    font-size: 25px;
+}
+
+.redes_icon a{
+    display: flex;
+    align-items: center;
+    color: #464646;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    transition: border 0.4s ease;
+    gap: 5px;
+}
+
+.redes_icon a:hover{
+    border-bottom: 3px solid var(--hover-color);
+}
+
+
+
+/*////////////SOBRE MIM//////////////////*/
+.sobre_mim {
+    background-color: var(--sobre-color);
+    padding: 80px;
+}
+
+.sobre p {
+
+    font-family: var(--fonte-paragrafos);
+}
+
+
+
+/*//////////////SKILLS///////////////////*/
+.divcontainerskills{
+    display: flex;
+    gap: 13px;
+    margin-top: 50px;
+}
+
+.skills{
+    display: flex;
+    text-align: center;
+}
+
+.skillcard{
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divcontainerskills :hover{
+    background-color: var(--hover-color);
+    color: white;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.secskills{
+    margin-top: 2%;
+}
+
+.divcontainerskills i {
+    font-size: 100px;
+
+}
+
+
+
+/*////////////////HOBBIES///////////////*/
+
+.hobbies{
+    display: flex;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.divcontainerhobbies{
+    display: flex;
+    gap: 13px;
+    margin-top: 50px;
+}
+
+.divcontainerhobbies :hover{
+    background-color: var(--hover-color);
+    color: white;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.hobbiecard{
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5%;
+}
+
+
+.divcontainerhobbies img{
+    width: 100px;
+}
+
+
+/*//////////////////////FORMACAO/////////////////////////*/
+
+.formacao{
+    display: flex;
+    background-color: var(--sobre-color);
+    text-align: center;
+    margin-top: 2%;
+    padding: 50px;
+}
+
+.divcontainerformacao{
+    display: flex;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+
+.formacaocard{
+    padding: 100px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.divcontainerformacao img{
+    width: 240px;
+}
+
+/*////EXPERIENCIA/////////*/
+
+.divcontainerexperiencia1{
+    display: flex;
+    gap: 30px;
+}
+
+.experienciaprof2{
+    display: flex;
+    justify-content: end;
+}
+
+.divcontainerexperiencia1 img{
+    width: 1000px;
+}
+
+.divcontainerexperiencia2 img{
+    width: 1000px;
+}
+.experienciaprof{
+    text-align: center;
+}
+
+.divcontainerexperiencia2{
+    display: flex;
+    gap: 30px;
+    margin-top: 5%;
+}
+
+
+.descricao1{
+    text-align: center;
+}
+.descricao2{
+    text-align: center;
+}
+
+.divcontainerexperiencia1 a{
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid var(--titulo-color);
+}
+
+.divcontainerexperiencia2 a{
+    margin: 5px;
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid var(--titulo-color);
+}
+
+
+footer{
+    background-color: var(--sobre-color);
+    padding: 40px;
+    margin-top: 5%;
+    bottom: 0;
+    width: 100%;
+
+}
+
